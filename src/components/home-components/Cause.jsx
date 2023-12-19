@@ -149,8 +149,8 @@ function Cause() {
             wellness and quality of life for the conscious consumer.
           </p>
         </div>
-        <div className="w-full flex lg:flex-wrap lg:mt-[20px] justify-around ml-[80px] lg:ml-[10px] sm:ml-0">
-          <div className="hover:translate-y-[-70px] transition-all">
+        <div className="w-full flex lg:flex-wrap lg:mt-[20px] justify-around ml-[80px] lg:ml-[10px] sm:ml-0 sm:gap-3">
+          <div className="hover:translate-y-[-70px] sm:hover:translate-y-0 transition-all">
             <Card2
               image="https://kos.com/cdn/shop/files/WEB-Four_Images-Image_1.jpg?v=1693992585&width=500"
               heading="Our Story, our KOS"
@@ -159,21 +159,21 @@ function Cause() {
               bgColor="bg-white"
             />
           </div>
-          <div className="translate-y-[50px] hover:translate-y-[-70px] transition-all">
+          <div className="translate-y-[50px] sm:translate-y-0 hover:translate-y-[-70px] sm:hover:translate-y-0 transition-all">
             <Card2
               image="https://kos.com/cdn/shop/files/image_2_1_1.png?v=1627605077&width=500"
               heading="Natural nutrrition, that's it."
               content="From our daily nutrition blends to our award winning protein powders, we always start with real foods."
             />
           </div>
-          <div className="translate-y-[30px] hover:translate-y-[-70px] transition-all">
+          <div className="translate-y-[30px] sm:translate-y-0 hover:translate-y-[-70px] sm:hover:translate-y-0 transition-all">
             <Card2
               image="https://kos.com/cdn/shop/files/image_3_1_1.png?v=1627605098&width=500"
               heading="Feel good, taste good."
               content="From our daily nutrition blends to our award winning protein powders, we always start with real foods."
             />
           </div>
-          <div className="translate-y-[70px] hover:translate-y-[-70px] transition-all">
+          <div className="translate-y-[70px] sm:translate-y-0 hover:translate-y-[-70px] sm:hover:translate-y-0 transition-all">
             <Card2
               image="https://kos.com/cdn/shop/files/image_4_1_1.png?v=1627605116&width=500"
               heading="High quality, low cost"
