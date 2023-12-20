@@ -49,7 +49,7 @@ const Tabs = () => {
       <div className="mt-4">
         {/* Content for Tab 1 */}
         {activeTab === 1 && (
-          <div className="flex justify-around flex-wrap md:justify-around md:gap-[10px]">
+          <div className="flex justify-around lg:gap-[10px] flex-wrap md:justify-around md:gap-[10px]">
             <Card
               height="h-[500px]"
               bgcolor="bg-[#FFF8E8]"
