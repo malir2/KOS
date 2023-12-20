@@ -11,7 +11,7 @@ function Partners() {
           alt=""
         />
         <div className="absolute top-[50%] flex justify-center w-full">
-          <div className="w-[90%] grid grid-cols-5 grid-rows-1 gap-[20px]">
+          <div className="w-[90%] mx-auto grid grid-cols-5 grid-rows-1 gap-[20px] lg:grid-rows-2 lg:grid-cols-3 sm:flex sm:flex-wrap sm:justify-around">
             <Brand_Card
               content="“Delicious & nutritious addition to any plant-based diet”"
               image="https://cdn.shopify.com/s/files/1/0490/3265/9093/files/healthline.svg?v=1620214008"
@@ -35,7 +35,7 @@ function Partners() {
           </div>
         </div>
       </div>
-      <div className="w-full relative">
+      <div className="w-full relative sm:mt-[70px] md:mt-[170px]">
         <svg
           className="dc-wave w-full"
           xmlns="http://www.w3.org/2000/svg"
@@ -52,57 +52,59 @@ function Partners() {
           </g>
         </svg>
         <img
-          className="absolute top-[100px] -z-30"
+          className="absolute top-[100px] sm:top-[70px] -z-30 w-full h-full md:object-cover md:object-left"
           src="https://kos.com/cdn/shop/files/section-05-bg-desktop-min.jpg?v=1620951566&width=1366"
           alt=""
         />
-        <div className="w-[400px] h-[500px] bg-white p-[20px] relative left-[63%] rounded-2xl overflow-hidden flex flex-col items-center -z-20">
-          <div className="relative w-full mt-[20px]">
-            <svg
-              className="absolute left-[29%] top-[-3px] w-[150px] -z-10"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 252 55"
-            >
-              <g>
+        <div>
+          <div className="w-[400px] sm:w-[250px] h-[500px] bg-white p-[20px] relative left-[63%] sm:left-[19%] md:top-[250px] rounded-2xl overflow-hidden flex flex-col items-center -z-20 md:shadow-[0px_0px_20px_2px_rgb(96,96,96)] md:left-[22%]">
+            <div className="relative w-full mt-[20px]">
+              <svg
+                className="absolute left-[29%] sm:left-[15%] sm:top-[-6px] top-[-3px] w-[150px] -z-10"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 252 55"
+              >
                 <g>
-                  <path
-                    fill="#efe1c2"
-                    d="M183.189 48.358c-29.126 3.228-48.488 1.9-78.478 2.663-29.99.763-39.66.422-57.534.827-16.885.383-27.909 1.6-24.838 1.5-9.327.31-13.553.724-13.553.724-5.288.175-6.725-.489-6.777-1.7 0 0-.062-1.173-.145-3.125-.01-.14.008-.28.052-.413.187-3.91 1.488-5.735.406-9.188-1.197-3.79-.667-7.359-.427-10.264a49.3 49.3 0 0 0-.802-9.9A59.086 59.086 0 0 1 .635 15.3a1.536 1.536 0 0 1-.374-.939 939.91 939.91 0 0 1-.146-3.3C.063 9.847 4.299 8.722 9.588 8.547l8.848-.293c.333-.01.645-.02.957-.028 9.973-.309 11.93-2.172 33.894-1.264 21.965.908 25.483-3.56 53.89-1.51 28.409 2.05 35.185-.81 50.592-1.607 15.406-.796 37.662.13 40.451.035 18.31-.626 41.545-2.957 41.545-2.957 5.299-.175 9.63.666 9.681 1.88 0 0 .052 1.031.125 2.77.02.422-.085.841-.302 1.21 0 .242 0 .553.021.977.146 3.155-.687 6.165.208 11 .562 3.037.063 6.168-.041 9.55.426.172.333.565-.011 1.386.002 1.659.194 3.312.573 4.93.508 1.623.781 3.306.812 5 .213.257.333.572.343.9l.167 3.6c.052 1.213-4.185 2.338-9.483 2.514l-.594.02-3.591.12c11.721-.408-25.358-1.65-54.484 1.578z"
-                  ></path>
+                  <g>
+                    <path
+                      fill="#efe1c2"
+                      d="M183.189 48.358c-29.126 3.228-48.488 1.9-78.478 2.663-29.99.763-39.66.422-57.534.827-16.885.383-27.909 1.6-24.838 1.5-9.327.31-13.553.724-13.553.724-5.288.175-6.725-.489-6.777-1.7 0 0-.062-1.173-.145-3.125-.01-.14.008-.28.052-.413.187-3.91 1.488-5.735.406-9.188-1.197-3.79-.667-7.359-.427-10.264a49.3 49.3 0 0 0-.802-9.9A59.086 59.086 0 0 1 .635 15.3a1.536 1.536 0 0 1-.374-.939 939.91 939.91 0 0 1-.146-3.3C.063 9.847 4.299 8.722 9.588 8.547l8.848-.293c.333-.01.645-.02.957-.028 9.973-.309 11.93-2.172 33.894-1.264 21.965.908 25.483-3.56 53.89-1.51 28.409 2.05 35.185-.81 50.592-1.607 15.406-.796 37.662.13 40.451.035 18.31-.626 41.545-2.957 41.545-2.957 5.299-.175 9.63.666 9.681 1.88 0 0 .052 1.031.125 2.77.02.422-.085.841-.302 1.21 0 .242 0 .553.021.977.146 3.155-.687 6.165.208 11 .562 3.037.063 6.168-.041 9.55.426.172.333.565-.011 1.386.002 1.659.194 3.312.573 4.93.508 1.623.781 3.306.812 5 .213.257.333.572.343.9l.167 3.6c.052 1.213-4.185 2.338-9.483 2.514l-.594.02-3.591.12c11.721-.408-25.358-1.65-54.484 1.578z"
+                    ></path>
+                  </g>
                 </g>
-              </g>
-            </svg>
-            <p className="text-center font-secondary">Subscribe & save</p>
-            <h1 className="font-primary text-[40px] text-primary text-center mt-[40px]">
-              Save 20%
-            </h1>
-            <p className="font-secondary text-center font-semibold text-lg mt-[10px]">
-              on automatic deliveries on everyday wellness essentials
-            </p>
-            <div className="flex justify-center gap-[20px] items-center mt-[50px]">
-              <img
-                className="h-[60px]"
-                src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-left.png?v=1684155268&width=383"
-                alt=""
-              />
-              <img
-                className="h-[60px]"
-                src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-middle.png?v=1684155268&width=383"
-                alt=""
-              />
-              <img
-                className="h-[60px]"
-                src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-right.png?v=1684155268&width=388"
-                alt=""
-              />
+              </svg>
+              <p className="text-center font-secondary">Subscribe & save</p>
+              <h1 className="font-primary text-[40px] text-primary text-center mt-[40px]">
+                Save 20%
+              </h1>
+              <p className="font-secondary text-center font-semibold text-lg mt-[10px]">
+                on automatic deliveries on everyday wellness essentials
+              </p>
+              <div className="flex justify-center gap-[20px] items-center mt-[50px]">
+                <img
+                  className="h-[60px]"
+                  src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-left.png?v=1684155268&width=383"
+                  alt=""
+                />
+                <img
+                  className="h-[60px]"
+                  src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-middle.png?v=1684155268&width=383"
+                  alt=""
+                />
+                <img
+                  className="h-[60px]"
+                  src="https://kos.com/cdn/shop/files/subscribe-and-save-icon-right.png?v=1684155268&width=388"
+                  alt=""
+                />
+              </div>
+              <p className="font-secondary text-center mt-[30px]">
+                Swap, skip, cancel anytime.
+              </p>
             </div>
-            <p className="font-secondary text-center mt-[30px]">
-              Swap, skip, cancel anytime.
-            </p>
+            <button className="bg-primary text-white font-secondary w-[150px] mx-auto h-[50px] mt-[20px] rounded-lg p-2">
+              Subscribe Now
+            </button>
           </div>
-          <button className="bg-primary text-white font-secondary w-[150px] mx-auto h-[50px] mt-[20px] rounded-lg p-2">
-            Subscribe Now
-          </button>
         </div>
       </div>
     </>

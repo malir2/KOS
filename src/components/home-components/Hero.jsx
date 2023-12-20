@@ -10,10 +10,9 @@ function Hero() {
   return (
     <div className="w-full">
       <Swiper
-        className="w-full"
+        className="w-full -z-10"
         modules={[Autoplay]}
         slidesPerView={1}
-        navigation
         autoplay={{ delay: 3000 }}
       >
         <SwiperSlide className="ease-linear">

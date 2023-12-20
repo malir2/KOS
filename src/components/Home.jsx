@@ -4,6 +4,10 @@ import Tabs from "./home-components/Tabs";
 import Cause from "./home-components/Cause";
 import Latest_Articles from "./home-components/Latest_Articles";
 import Partners from "./home-components/Partners";
+import Project from "./home-components/Project";
+import Featured_Products from "./home-components/Featured_Products";
+import Reward from "./home-components/Reward";
+import Last_Section from "./home-components/Last_Section";
 
 function Home() {
   return (
@@ -13,7 +17,10 @@ function Home() {
       <Cause />
       <Latest_Articles />
       <Partners />
-      <div className="h-screen"></div>
+      <Project />
+      <Featured_Products />
+      <Reward />
+      <Last_Section />
     </div>
   );
 }

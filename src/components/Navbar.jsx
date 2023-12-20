@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import Learn from "./navbar-components/Learn";
 import SearchBar from "./navbar-components/SearchBar";
 import Hamburger_Menu from "./navbar-components/Hamburger_Menu";
+import Menu from "../media/menu.png";
 
 function Navbar() {
   const [learnSection, setLearnSection] = useState(true);
@@ -47,7 +48,6 @@ function Navbar() {
             modules={[Autoplay]}
             spaceBetween={40}
             slidesPerView={1}
-            navigation
             autoplay={{ delay: 3000 }}
           >
             <SwiperSlide className="ease-linear">
@@ -78,8 +78,8 @@ function Navbar() {
         {/* Navbar Menu Section */}
         <div className="flex justify-between items-center bg-white p-2 font-secondary text-sm h-auto border-b">
           {/* Hamburger Icon */}
-          <div className="hidden lg:block">
-            <Hamburger_Menu />
+          <div className="hidden lg:block h-[50px] w-[50px]">
+            <img src={Menu} alt="" />
           </div>
           {/* Menu */}
           <div className="lg:hidden">
@@ -131,7 +131,7 @@ function Navbar() {
               </Link>
             </ul>
           </div>
-          <div className="flex gap-[30px] mr-[30px]">
+          <div className="flex gap-[30px] sm:gap-[10px] sm:mr-[10px] mr-[30px]">
             <img
               ref={searchRef}
               onClick={searchButton}
@@ -169,7 +169,7 @@ function Navbar() {
       <div
         className={`${
           searchBar ? "translate-y-7 invisible" : "translate-y-0 visible"
-        } transition-all`}
+        } transition-all z-50`}
       >
         <SearchBar />
       </div>

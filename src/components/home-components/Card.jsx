@@ -17,11 +17,11 @@ function Card(props) {
         content ? `${props.height}` : "h-[400px]"
       } px-[20px] pb-3 rounded-lg transition-all`}
     >
-      <img src={props.itemImage} alt="" className="z-30" />
+      <img src={props.itemImage} alt="" className="z-30 h-[300px]" />
       <img
         className={`absolute top-[60px] z-10 ${
           content ? "scale-1" : "scale-0"
-        } transition-all`}
+        } transition-all ${props.display}`}
         src="https://kos.com/cdn/shop/files/hover-animation-organic-plant-protein.png?v=1683894699&width=640"
         alt=""
       />
@@ -47,7 +47,7 @@ function Card(props) {
           {props.content}
         </p>
         <button
-          className={`bg-primary text-white font-secondary text-xl p-2 mt-[20px] rounded-lg
+          className={`bg-primary w-[${props.width}] text-white font-secondary text-xl p-2 mt-[20px] rounded-lg
           transition-all`}
         >
           {props.button}
